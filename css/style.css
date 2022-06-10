@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+  font-size: 100%;
+  background: linear-gradient(68.15deg, #2a1056 16.62%, #534d89 85.61%);
+}
+
+a {
+  color: rgb(138, 16, 111);
+}
+
+div.container {
+    max-width: 1450px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+header {
+    background: #fff;
+    padding: 0px 0px;
+    float: left;
+    width: 100%;
+    position: fixed;
+}
+
+header h1 {
+    float: left;
+}
+
+header ul {
+    float: right;
+    margin: 20px 0 0 0;
+    padding: 0;
+    list-style: none;
+}
+
+header ul li {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display:inline-block;
+}
+
+header ul li a {
+    margin: 0;
+    padding: 10px 20px;
+    display: block;
+    color:rgba(0, 0, 0, 0.856);
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Sarala', sans-serif;
+}
+
+.logo {
+    width: 75px;
+}
+
+
+.conteudo {
+  margin-bottom: 3px;
+  margin-top: 67px;
+  border-top: 0.4px solid #FFF2E7;
+
+}
+
+.conteudo-x {
+  margin-bottom: 3px;
+  margin-top: 67px;
+}
+
+.conteudo-principal {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.conteudo-principal-escrito {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.conteudo-principal-escrito-titulo {
+  font-family: 'Righteous', cursive;
+  font-weight: 400;
+  font-size: 64px;
+  color: #FFF2E7;
+}
+
+.conteudo-principal-escrito-subtitulo {
+  font-family: 'Sarala', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #ECD6C4;
+}
+
+.conteudo-principal-escrito-botao {
+  background-color: #ECD6C4;
+  text-align: center;
+  width: 160px;
+  height: 40px;
+  border: none;
+  box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  font-family: 'Sarala', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #2F2325;
+  cursor: pointer;
+}
+
+.conteudo-principal-escrito-botao:hover {
+  background-color: rgba(236, 214, 196, 0.53);
+}
+
+.conteudo-principal-imagem {
+  height: 430px;
+}
+
+.conteudo-principal-imagem-02 {
+    height: 340px;
+}
+
+.conteudo-principal-imagem-03 {
+  height: 340px;
+  background: #fff;
+}
+
+.conteudo-secundario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  margin-top: 48px;
+}
+
+.conteudo-secundario-titulo {
+  border-top: 0.4px solid #FFF2E7;
+  padding-top: 48px;
+  font-family: 'Righteous', cursive;
+  font-weight: 400;
+  font-size: 24px;
+  color: #FFF2EF;
+  margin-bottom: 16px;
+}
+
+.conteudo-secundario-paragrafo {
+  font-family: 'Sarala', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  color: #ECD6C4;
+}
+
+.conteudo-secundario-paragrafo-p {
+    width:436px;
+    padding: 5px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #ECD6C4;
+
+}
+
+.rodape {
+    padding: 32px;
+    border-top: 0.4px solid #FFF2E7;
+}
+
+.footer-p {
+    padding: 5px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #ECD6C4;
+
+    display:flex;
+    justify-content: center;
+}
+
+.rodape-imagem {
+  height: 48px;
+  display: block;
+  margin: 0 auto;
+}
+
+
+.caixa-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  margin-top: 48px;
+  padding-left: 77px;
+}
+
+.titulo-card {
+  /* padding-top: 48px; */
+  font-family: 'Righteous', cursive;
+  font-weight: 400;
+  font-size: 24px;
+  color: #FFF2EF;
+  margin-bottom: -5px;
+}
+
+.img-card {
+  width: 75px;
+
+  /* padding-top: 48px; */
+  font-family: 'Righteous', cursive;
+  font-weight: 400;
+  font-size: 24px;
+  color: #FFF2EF;
+  margin-bottom: 16px;
+}
+
+.paragrafo-card {
+  font-family: 'Sarala', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  color: #ECD6C4;
+  width: 468px;
+  text-align: center;
+  margin-top: -28px;
+}
+
+.centro {
+  width: 700px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 6rem;
+}
+
+.espaco-titulo {
+  margin-left: 17rem;
+}
